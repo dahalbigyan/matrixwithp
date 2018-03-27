@@ -9,4 +9,8 @@ Vectors:
     - Written as [x
                   y
                   z]
-                  
+Operating on Vectors: 
+    - Addition
+    - Subtraction
+    - Scalar Multiplication
+    
