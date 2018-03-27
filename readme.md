@@ -10,4 +10,3 @@ Vectors:
                   y
                   z]
                   
-                  
