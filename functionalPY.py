@@ -1,3 +1,5 @@
+from functools import reduce
+
 class LineCounter:
     def __init__(self, filename):
         self.file=open(filename, 'r')
@@ -38,4 +40,9 @@ sum_withlambda = lambda a, b: a+b
 # map function
 values = [1,2,3,4,5]
 add_10 = map(lambda x: x+10, values)
-print(add_10)
+
+# filter function
+add_10_Filtered = filter(lambda x: x%2 == 0, values)
+
+add_10_Reduced = reduce(lambda x,y: x+y, values)
+print(add_10_Reduced)
