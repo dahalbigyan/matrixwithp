@@ -37,4 +37,5 @@ it[:,1] = x
 # Initialize theta parameters
 theta = zeros(shape=(2,1))
 cost = compute_cost(it,y,theta)
-print(cost)
+print(it[:,1])
+print(it[:,0])
