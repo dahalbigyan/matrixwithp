@@ -14,6 +14,7 @@ cost_function(j(m)) = 1/m(∑ from i to m)((hm)(x^i) - y^i)^2
 
 from numpy import loadtxt, zeros, ones, array, linspace, logspace
 from pylab import scatter, show, title, xlabel, ylabel, plot, contour
+from cost_function import compute_cost
 
 # load the data set
 data = loadtxt('data1.txt', delimiter=',')
@@ -35,6 +36,5 @@ it[:,1] = x
 
 # Initialize theta parameters
 theta = zeros(shape=(2,1))
-predictions = it.dot(theta)
-print(predictions.flatten())
-print(y)
+cost = compute_cost(it,y,theta)
+print(cost)
