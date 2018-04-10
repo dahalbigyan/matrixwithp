@@ -19,3 +19,30 @@ def gradient_descent(x,y, theta, alpha, num_iters):
 
         J_history[i, 0] = compute_cost(X, y, theta)
     return theta, J_history
+
+def sigmoid(z):
+    return 1 / (1+np.exp(-z))
+
+def sigmoid_cost(x,y, theta):
+    theta = np.matrix(theta)
+    X = np.matrix(X)
+    y = np.matrix(y)
+    first = np.multiply(-y, np.log(sigmoid(X * theta.T)))
+    second = np.multiply((1 - y), np.log(1 - sigmoid(X * theta.T)))
+    return np.sum(first - second) / (len(X))
+
+def sigmoid_gradient(theta, x, y):
+    theta = np.matrix(theta)
+    X = np.matrix(X)
+    y = np.matrix(y)
+
+    parameters = int(theta.ravel().shape[1])
+    grad = np.zeros(parameters)
+
+    error = sigmoid(X * theta.T) - y
+
+    for i in range(parameters):
+        term = np.multiply(error, X[:,i])
+        grad[i] = np.sum(term) / len(X)
+
+    return grad

@@ -36,3 +36,11 @@ gradient descent reference
 1. http://aimotion.blogspot.com/2011/10/machine-learning-with-python-linear.html
 2. http://mccormickml.com/2014/03/04/gradient-descent-derivation/
 3. http://www.johnwittenauer.net/machine-learning-exercises-in-python-part-1/
+
+
+************
+Gradient Descent Optimizers:
+1. Overview of gradient descent optimization algorithms
+  http://ruder.io/optimizing-gradient-descent/index.html#whichoptimizertochoose
+2. Types of Optimization Algorithms used in Neural Networks and Ways to Optimize Gradient Descent
+https://towardsdatascience.com/types-of-optimization-algorithms-used-in-neural-networks-and-ways-to-optimize-gradient-95ae5d39529f
