@@ -88,6 +88,7 @@ Algorithms to optimize gradient descent:
 
 ******
 Regularization Norms:
+  -  Regularization can be used as a way of convexifying a non-convex cost function to help gradient descent avoid some undesirable stationary points of such a function.
 1. L1(Lasso)
 2. L2(Ridge)(Tikhonov regularization)(Weight Decay)
 3. Regularization Term
