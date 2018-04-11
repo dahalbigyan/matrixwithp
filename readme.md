@@ -44,3 +44,44 @@ Gradient Descent Optimizers:
   http://ruder.io/optimizing-gradient-descent/index.html#whichoptimizertochoose
 2. Types of Optimization Algorithms used in Neural Networks and Ways to Optimize Gradient Descent
 https://towardsdatascience.com/types-of-optimization-algorithms-used-in-neural-networks-and-ways-to-optimize-gradient-95ae5d39529f
+
+
+************
+
+Gradient:
+   - A vector that is a multi-variable generalization of a derivative(dy/dx)
+   - Calculated using partial derivatives
+
+Optimization Algorithms:
+  - Help us to minimize(or maximize) an objective function
+      - Objective function:
+          - A function dependent on the model's internal learnable parameters which are used in computing the target values from the set of predictors
+          - Weights and Bias of the neural network are internal learnable parameters
+
+Types of optimization algorithms:
+  1. First Order
+      - Minimize/Maximize a loss function using its gradient values wrt the parameters
+      - Gives us a line tangential to a point on its error surface
+      - Example: Gradient Descent
+      - Why we need it?
+          => Tells us whether the function is decreasing or increasing at a particular point.
+
+  2. Second Order
+      - Also called Hessian
+      - Minimize/Maximize a loss function
+      - A matrix of second order partial derivatives
+      - Gives us a quadratic surface which touches the curvature of the error surface.
+      - Why we need it?
+          => Tells us whether the first derivative is increasing or decreasing.
+          => Provides hints regarding function's curvature
+
+Variants of Gradient Descent:
+1. Stochastic gradient Descent
+2. Minibatch gradient Descent
+
+Algorithms to optimize gradient descent:
+1. momentum
+2. nesterov accelerated Gradient
+3. adagrad
+4. adadelta
+5. ada
