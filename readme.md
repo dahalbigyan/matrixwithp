@@ -85,3 +85,11 @@ Algorithms to optimize gradient descent:
 3. adagrad
 4. adadelta
 5. ada
+
+******
+Regularization Norms:
+1. L1(Lasso)
+2. L2(Ridge)(Tikhonov regularization)(Weight Decay)
+3. Regularization Term
+
+https://www.quora.com/What-is-the-difference-between-L1-and-L2-regularization-How-does-it-solve-the-problem-of-overfitting-Which-regularizer-to-use-and-when
