@@ -91,6 +91,6 @@ Regularization Norms:
   -  Regularization can be used as a way of convexifying a non-convex cost function to help gradient descent avoid some undesirable stationary points of such a function.
 1. L1(Lasso)
 2. L2(Ridge)(Tikhonov regularization)(Weight Decay)
-3. Regularization Term
+3. Elastic Net
 
 https://www.quora.com/What-is-the-difference-between-L1-and-L2-regularization-How-does-it-solve-the-problem-of-overfitting-Which-regularizer-to-use-and-when
