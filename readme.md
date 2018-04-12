@@ -92,6 +92,9 @@ Regularization Norms:
 1. L1(Lasso)
 2. L2(Ridge)(Tikhonov regularization)(Weight Decay)
 3. Elastic Net
+
+In summary, L1 = sparse weights, L2 = small distributed weights
+
 ===Think of Lagrange Multiplier===
 https://www.quora.com/What-is-the-difference-between-L1-and-L2-regularization-How-does-it-solve-the-problem-of-overfitting-Which-regularizer-to-use-and-when
 
