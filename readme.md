@@ -99,3 +99,8 @@ In summary, L1 = sparse weights, L2 = small distributed weights
 https://www.quora.com/What-is-the-difference-between-L1-and-L2-regularization-How-does-it-solve-the-problem-of-overfitting-Which-regularizer-to-use-and-when
 
 https://feature.engineering/regularization/
+
+
+*******
+Bayesian Probability = (prior probability, new evidence)=>posterior probability
+Bayesian View = Hypothesis is tagged with a probability 
