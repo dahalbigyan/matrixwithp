@@ -14,3 +14,8 @@ Because we are working bottom-up, we already have solutions to the sub-problems 
 Remember, dynamic programming problems must have both overlapping sub-problems, and optimal substructure. Generating the Fibonacci sequence is not a dynamic programming problem; it utilizes memoization because it has overlapping sub-problems, but it does not have optimal substructure (because there is no optimization problem involved).
 
 http://mat.gsia.cmu.edu/classes/dynamic/node2.html#SECTION00020000000000000000
+
+Deterministic dynamic:
+  function(state, decision)=>immediate payoff, next state
+Stochastic dynamic:
+  function(probabilistic state || probabilistic decision)=>immediate payoff, next state
