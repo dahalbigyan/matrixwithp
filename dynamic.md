@@ -19,3 +19,6 @@ Deterministic dynamic:
   function(state, decision)=>immediate payoff, next state
 Stochastic dynamic:
   function(probabilistic state || probabilistic decision)=>immediate payoff, next state
+
+decision => sequence of decision steps over time
+decision => valuefunction1(state1) + valuefunction2(state2) + ...
