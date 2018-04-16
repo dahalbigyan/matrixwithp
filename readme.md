@@ -103,4 +103,8 @@ https://feature.engineering/regularization/
 
 *******
 Bayesian Probability = (prior probability, new evidence)=>posterior probability
-Bayesian View = Hypothesis is tagged with a probability 
+Bayesian View = Hypothesis is tagged with a probability
+
+***
+SVM
+https://medium.com/machine-learning-101/chapter-2-svm-support-vector-machine-theory-f0812effc72
