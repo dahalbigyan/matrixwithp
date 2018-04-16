@@ -23,6 +23,10 @@ Stochastic dynamic:
 decision => sequence of decision steps over time
 decision => valuefunction1(state1) + valuefunction2(state2) + ...
 
-Bellman equation
+Bellman equation:
+The significance of Bellman equation is that it gives a way to reason about the maximization the utility of by an agent over a time horizon. Often the problems that we seek to solve are "farming" problems where we seek to maximize the overall utility of a resource over a period of time as opposed to harvesting the resource all at once.
+
+The other way of looking at Bellman's equation is that this is a way of balancing the local exploitation (in the state space) vs exploring more of the state space so that an optimal harvesting policy can be generated. This is applicable in reinforcement learning contexts.
+
 https://joshgreaves.com/reinforcement-learning/understanding-rl-the-bellman-equations/
 policy iteration vs value iteration
