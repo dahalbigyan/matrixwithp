@@ -22,3 +22,7 @@ Stochastic dynamic:
 
 decision => sequence of decision steps over time
 decision => valuefunction1(state1) + valuefunction2(state2) + ...
+
+Bellman equation
+https://joshgreaves.com/reinforcement-learning/understanding-rl-the-bellman-equations/
+policy iteration vs value iteration
