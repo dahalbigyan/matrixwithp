@@ -30,3 +30,5 @@ The other way of looking at Bellman's equation is that this is a way of balancin
 
 https://joshgreaves.com/reinforcement-learning/understanding-rl-the-bellman-equations/
 policy iteration vs value iteration
+
+https://blog.pramp.com/how-to-solve-any-dynamic-programming-problem-603b6fbbd771
