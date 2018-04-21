@@ -32,3 +32,7 @@ https://joshgreaves.com/reinforcement-learning/understanding-rl-the-bellman-equa
 policy iteration vs value iteration
 
 https://blog.pramp.com/how-to-solve-any-dynamic-programming-problem-603b6fbbd771
+
+****
+topological sort of subproblem dependency DAG
+
